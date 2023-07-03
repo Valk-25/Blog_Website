@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@300&family=PT+Sans+Narrow&display=swap');
+
+:root{
+	--main-bg-color: brown;
+	--font1:  'Lato', sans-serif;
+	--font2: 'PT Sans Narrow', sans-serif;
+	--font3:  'Josefin Sans', sans-serif;
+
+}
+.max-width-1{
+	max-width: 80vw;
+}
+.max-width-2{
+	max-width: 60vw;
+}
+
+.m-auto{
+	margin: auto;
+}
+
+.btn{
+font-family: var(--font1);
+    padding: 2.5px 2.5px;
+    font-size: 12px;
+    cursor: pointer;
+ 	transition: all 0.3s ease-in-out;   
+	border: 1px solid #3b3a3a;
+	border-radius: 5px;
+}
+.btn:hover{
+	color: black;
+	background-color: blanchedalmond;
+	 font-size: 1rem;
+}
+.form-input{
+	padding: 2.5px 2.5px;
+    font-size: 12px;
+    margin: 0 5px;
+    font-family: var(--font1);
+}
+
+.form-input:focus{
+	font-size: 1rem;
+}
